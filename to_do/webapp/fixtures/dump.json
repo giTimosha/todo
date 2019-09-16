@@ -1,0 +1,40 @@
+[
+{
+  "model": "webapp.article",
+  "pk": 6,
+  "fields": {
+    "description": "fruit",
+    "total_description": null,
+    "status": "done",
+    "date": "2019-09-09"
+  }
+},
+{
+  "model": "webapp.article",
+  "pk": 8,
+  "fields": {
+    "description": "wergvfdcearfg",
+    "total_description": null,
+    "status": "in_progress",
+    "date": "2019-09-04"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$tbwhrdVamxK7$r1gCGMFB15cEbT93UTfOxY6A2J/bYlZh4zsKvpnBZtQ=",
+    "last_login": "2019-09-09T10:41:13.359Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2019-09-05T11:41:06.205Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]

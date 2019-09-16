@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}Task{% endblock %}
+
+{% block menu %}
+    <li><a href="{% url 'task_update' task.pk %}">Edit</a></li>
+{% endblock %}
+
+{% block content %}
+
+   <div class="container">
+
+      <p>Description: {{ task.description }}</p>
+    <p>Total Description: {{ task.total_description }}</p>
+    <p>Status: {{ task.status }}</p>
+    <p>Date: {{ task.date }}</p>
+    <p><a href="{% url 'index' %}">Go to main</a></p>
+
+   </div>
+
+{% endblock %}
